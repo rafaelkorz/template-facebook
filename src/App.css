@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background: #4a90e2;
+  background: #0145d6ec;
   display: flex;
   justify-content: center;
 }
@@ -30,7 +30,7 @@ header nav {
   align-items: center;
   height: 64px;
   padding: 0 42px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   min-width: 980px;
   font-size: 14px;
 }
@@ -63,7 +63,7 @@ nav > div i {
   border-radius: 8px;
   background: white;
   padding: 20px;
-  color: #3e3e3e;
+  color: #000000;
   line-height: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -90,22 +90,22 @@ nav > div i {
 }
 
 .avatar {
-  min-height: 32px;
-  min-width: 32px;
-  height: 32px;
-  width: 32px;
-  border-radius: 50%;
+  min-height: 38px;
+  min-width: 38px;
+  height: 38px;
+  width: 38px;
+  border-radius: 65%;
 }
 
 .post-content {
-  margin-top: 15px;
-  font-size: 14px;
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 .divider {
   width: 100%;
   height: 1px;
-  background: #eeeeee;
+  background: #ffffffc2;
 }
 
 .post-comments {
@@ -113,7 +113,7 @@ nav > div i {
 }
 
 .comment {
-  margin-top: 20px;
+  margin-top: 30;
   display: flex;
 }
 
@@ -126,6 +126,6 @@ nav > div i {
 }
 
 .comment span {
-  font-weight: bold;
-  margin-right: 6px;
+  font-weight: bolder;
+  margin-right: 10px;
 }
